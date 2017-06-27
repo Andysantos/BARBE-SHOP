@@ -2,13 +2,14 @@
 <html lang="pt-BR">
 
 <head>
-    <title>BARBE-SHOP</title>
+    <title>Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Fontdiner+Swanky|Fredericka+the+Great|Lakki+Reddy|Ovo|Shojumaru|Vast+Shadow"
+        rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link href="css/login.css" rel="stylesheet">
@@ -18,28 +19,37 @@
 <body>
     <div class="container">
         <header>
-            <div class="row center-align col s12">
-                <div class=" black-text text-black">Bem-Vindo!</div>
+            <div class="row col s12">
+                <a class="col s3 waves-effect waves-teal btn-flat black grey-text text-darken-2" href="BARBE-SHOP.html">Voltar</a>
+                <a class="col s9 waves-effect waves-teal btn-flat"><h5>Área de login</h5></a>
             </div>
         </header>
-        <div class="row col s12">
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" size="10">
-                
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="nome">Sobrenome
-                
-                <label for="e-mail">E-Mail:</label>
-                <input type="text" id="nome" size="10">
-                
-                <label for="senha">Senha:</label>
-                <input type="text" id="nome" size="10">
-                
-                <label for="conf.senha">Conf. A Senha:</label>
-                <input type="text" id="nome" size="10">
-            </form>
-        </div>
+        <main>
+            <div class="row col s12 ">
+                <span id="msgErro" class=""></span>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" size="10">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="nome">
+                    <label for="e-mail">E-Mail:</label>
+                    <input type="text" id="nome" size="10">
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="nome" size="10">
+                    <label for="conf.senha">Conf. A Senha:</label>
+                    <input type="text" id="nome" size="10">
+                    <button class="btn waves-effect waves-light black" type="submit" name="action" onclick="cadastrar()">Cadastrar:
+                    </button>
+                    <br>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" size="10">
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="nome" size="10">
+                    <button class="btn waves-effect waves-light black" type="submit" name="action">Login:
+                    </button>
+                </form>
+            </div>
+        </main>
     </div>
 
 
@@ -61,4 +71,6 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/cadastro-login.js"></script>
+
 </body>

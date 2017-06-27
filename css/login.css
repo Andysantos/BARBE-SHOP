@@ -1,33 +1,70 @@
 html {
+ background-image: url("../img/fundo3.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
     }
-    
-body, .container {
-    height: 100%;
-    
-}
+
 
 img {
     max-width: 100%;
 }
 
-
-header {
-    height: 10%;
+header{
     padding-top: 8%;
+font-family: 'Shojumaru', cursive;
 }
 
+form{
+    
+}
 
 
 main {
-    height: 80%;
-    padding-top: 50%;   
-    
+    font-family: 'Shojumaru', cursive;
 }
 
 .footer {
-    height: 10%;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/*debugger;
+            idade = parseInt(idade);
+            if (idade < 18 || idade > 150) {
+                alert("A idade minima é 18 e a maxima é 150");
+            }
+            var sexo = document.getElementsByName("sexo");
+            var masc = sexo[0].checked;
+            var fem = sexo[1].checked;
+            var outro = sexo[2].checked;
+            if ((masc == false) && (fem == false) && (outro == false)) {
+                alert("Selecione o sexo");
+            }
+            
+            for( var i=0; i < sexo.length; i=i+1 ) {
+                console.log(sexo[i]);
+            }
+            
+            
+            */

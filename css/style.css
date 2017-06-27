@@ -1,5 +1,5 @@
 html {
-    background-image: url("../img/28.jpg");
+    background-image: url("../img/fundo1.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -19,13 +19,16 @@ img {
 header {
     height: 10%;
     padding-top: 8%;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 35px;
 }
 
 
 
 main {
     height: 80%;
-    padding-top: 50%;   
+    padding-top: 50%;  
+    font-family: 'Shojumaru', cursive;
     
 }
 

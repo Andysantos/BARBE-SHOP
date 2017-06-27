@@ -1,0 +1,13 @@
+font-family: 'Fredericka the Great', cursive;
+
+font-family: 'Ovo', serif;
+
+font-family: 'Lakki Reddy', cursive;
+
+font-family: 'Cinzel Decorative', cursive;
+
+font-family: 'Fontdiner Swanky', cursive;
+
+font-family: 'Vast Shadow', cursive;
+
+font-family: 'Shojumaru', cursive;
