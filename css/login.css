@@ -1,5 +1,5 @@
 html {
- background-image: url("../img/fundo4.png");
+ background-image: url("../img/fundo1.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -12,12 +12,15 @@ html {
 header{
     padding-top: 8%;
 font-family: 'Shojumaru', cursive;
+color: #f4f4f4;
 }
 
 
 
 main {
     font-family: 'Shojumaru', cursive;
+color: #f4f4f4;
+    
 }
 
 
